@@ -53,9 +53,15 @@
  
   * IIS 7.0 up
     1. IIS預設沒有安裝動態內容壓縮模組，需自行安裝此模組
+    
+     ![image](https://cloud.githubusercontent.com/assets/14270012/16729772/28df0ff4-47a1-11e6-81de-b076d4e63357.png)
+    
     2. 啟用壓縮模組
+    
+     ![image](https://cloud.githubusercontent.com/assets/14270012/16729784/44c7295e-47a1-11e6-89d6-05449d8f0d62.png)
 
-
+     ![image](https://cloud.githubusercontent.com/assets/14270012/16729799/66d746b4-47a1-11e6-88c5-25c374f39045.png)
+     
 ## 在IIS中將靜態檔案設定用戶端快取(Client-Side Cache)
   * IIS 6.0
     1. 選擇需要設定用戶端快取的目錄(通常是存放靜態的網頁、圖檔、CSS、Javascrip等不常變動的檔案)
@@ -75,6 +81,7 @@
       
         其中 cacheControlMaxAge 為 timeSpan，其格式為 d.hh:mm:ss，其中 d 是「天數」、hh 是小時、mm 是分鐘及 ss 是秒數，其中的天數是可省略的。這項設定沒有 GUI 介面可以協助你，必須手動設定。
 
-來源參考:http://blog.miniasp.com/post/2009/04/12/How-to-setup-Client-side-Cache-in-IIS.aspx
-  
+來源參考:
+http://blog.miniasp.com/post/2009/04/12/How-to-setup-Client-side-Cache-in-IIS.aspx
+http://blog.yam.com/yzl1218/article/59116876  
   
