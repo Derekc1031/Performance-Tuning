@@ -1,3 +1,4 @@
 # hello-world
 Just a sample hello-world testing project for github
-http://pic.pimg.tw/chunhsing/21ee20db951cd89f773118286c9350e6.png
+
+![image](https://f.cloud.github.com/assets/88981/1269498/03d8f4d2-2cfa-11e3-8c5c-52c505f850ac.png)
