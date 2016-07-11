@@ -3,4 +3,7 @@
 
 2. JS 調效方法
 
+3. [PageSpeed Insights 規則](https://developers.google.com/speed/docs/insights/rules) 
+
+
 
