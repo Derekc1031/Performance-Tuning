@@ -82,6 +82,8 @@
         其中 cacheControlMaxAge 為 timeSpan，其格式為 d.hh:mm:ss，其中 d 是「天數」、hh 是小時、mm 是分鐘及 ss 是秒數，其中的天數是可省略的。這項設定沒有 GUI 介面可以協助你，必須手動設定。
 
 來源參考:
+
 http://blog.miniasp.com/post/2009/04/12/How-to-setup-Client-side-Cache-in-IIS.aspx
+
 http://blog.yam.com/yzl1218/article/59116876  
   
