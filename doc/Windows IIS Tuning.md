@@ -13,7 +13,9 @@
   * IIS 6.0
     1. 選擇需要設定用戶端快取的目錄(通常是存放靜態的網頁、圖檔、CSS、Javascrip等不常變動的檔案)
     2. 開啟IIS，於選擇好的目錄上，設定[HTTP標頭]的[啟用內容的到期限制]
-       
+    
+       ![http_tag](https://cloud.githubusercontent.com/assets/14270012/16729130/193e663e-479d-11e6-962c-0c4f4ac45f6d.png)
+
        PS:如有多個目錄要設定快取，就必須每個目錄個別設定。
 
   * IIS 7.0 up
