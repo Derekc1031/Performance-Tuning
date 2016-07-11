@@ -1,5 +1,5 @@
 # 網頁調效方法:
-1. Windows IIS 調效
+1. [Windows IIS 調效](/doc/Windows IIS Tuning.md)
 
 2. JS 調效方法
 
