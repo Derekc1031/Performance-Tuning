@@ -1,8 +1,9 @@
 # 網頁調效方法:
   * [Windows IIS 調效](/doc/Windows IIS Tuning.md)
-
-  * [Google PageSpeed Insights 規則](https://developers.google.com/speed/docs/insights/rules) 
-
+  
+  * Google PageSpeed Insights
+    * [Google PageSpeed Insights分析工具](https://developers.google.com/speed/pagespeed/insights/)
+    * [Google PageSpeed Insights 規則](https://developers.google.com/speed/docs/insights/rules) 
     * [使用 Google PageSpeed Insights 為行動網站進行效能調效](http://ppt.cc/OJbnS) 
 
   * [加速前端網頁效能的14條規則](http://blog.miniasp.com/post/2007/11/24/14-rules-for-faster-front-end-performance-notes.aspx)
