@@ -3,7 +3,7 @@
 
 * Step 1. 壓測主機規劃:
 
-  Image 1
+  image 1
 
   * 測試端主機: 
     * 先安裝 Visual Studio Enterprise 2015，再更新到 Visual Studio Enterprise 2015 upadte 3 版本。
@@ -16,10 +16,17 @@
 
 * Step 2. 測試控制器主機安裝&設定
   
-  * Step 2.1:
-    * 下載&安裝 Visual Studio Test Controller 2013，[下載點](https://www.microsoft.com/zh-tw/download/details.aspx?id=40750)
+  * Step 2.1: 安裝&設定Test Controller
+    * 安裝 Visual Studio Test Controller 2013，[下載點](https://www.microsoft.com/zh-tw/download/details.aspx?id=40750)
+    * 開啟"本機使用者與群組"，在安裝完Test Controller後，會自動建立TeamTest-開頭的群組 :
+      image 2
+       
+    * 把壓測帳號(loadtest)加入administrators群組  
+  * Step 2.2:
     * 下載&安裝 SQL Server 2014 Express，[下載點](https://www.microsoft.com/zh-tw/download/details.aspx?id=42299)
       * 另外可安裝SQL Server Management Studio(SSMS)查詢壓測資料被儲存至的資料庫，[下載點](https://msdn.microsoft.com/zh-  tw/library/mt238290.aspx)
+      
+
 
 
 ##Reference:
