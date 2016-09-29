@@ -9,7 +9,7 @@
 
 # 壓力測試方法:
   * [如何進行網站壓力測試：以不動產交易實價查詢服務網為例](http://blog.miniasp.com/post/2012/10/18/How-to-do-Web-Load-Test.aspx)
-  * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試.md)
+  * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/Web Performance and Load Testing with Visual Studio 2015.md)
  
 
 
