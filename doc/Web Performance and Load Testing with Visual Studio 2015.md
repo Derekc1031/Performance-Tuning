@@ -45,6 +45,7 @@
     * 於登入帳戶，勾選"這個帳戶"，填入Step 2.1建立的壓測帳號&密碼。
     
     * 於負載測試，勾選"設定測試控制器已進行負載測試"，在建立負載測試結果資料庫欄位填入:"hostname/SQLExpress"。
+    
       ![image](https://cloud.githubusercontent.com/assets/14270012/19080519/edd70002-8a89-11e6-8401-df40389c1f98.png)
       
       * hostname為主機名稱，另外因為我們安裝的SQL Express版本，所以instanceu就得填SQLExpress，其他版本的SQL就沒有此限制。
