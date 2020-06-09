@@ -7,7 +7,7 @@
 
 # 系統調效:
   
-  * [Windows IIS 調效](/doc/Windows IIS Tuning.md)
+  * [Windows IIS 調效](/doc/WindowsIISTuning.md)
   * [使用SQL Server Profiler 追蹤網頁SQL指令或Stored Procedure效能](/doc/sqlprofiler.md)
 
 # 負載壓力測試:
