@@ -12,7 +12,7 @@
 
 # 負載壓力測試:
  
-  * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/Web Performance and Load Testing with Visual Studio 2015.md)
+  * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/Performance&LoadTestingwithVS2015.md)
  
 
 
