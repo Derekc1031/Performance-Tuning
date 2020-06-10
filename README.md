@@ -11,6 +11,9 @@
   * [Windows Performance Monitor Tutorial](https://www.mssqltips.com/sqlservertutorial/9178/windows-performance-monitor-tutorial/)-**Important!!**
   * [A detailed Windows Resource Monitor guide](https://www.ghacks.net/2017/12/28/a-detailed-windows-resource-monitor-guide/)-**Important!!**
   * [How to Check Server Load on a Windows Server](https://www.liquidweb.com/kb/check-server-load-windows-server/)-**Important!!**
+  * [Windows Server 2008 R2 校調工具實戰(上)](http://www.runpc.com.tw/content/content.aspx?id=109255)
+  * [Windows Server 2008 R2 校調工具實戰(下)](http://www.runpc.com.tw/content/content.aspx?id=109256)
+  * [網站效能調校實戰經驗大募集](https://ithelp.ithome.com.tw/questions/10005261)
 
 # 負載壓力測試:
  
