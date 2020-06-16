@@ -42,6 +42,8 @@ reference: https://www.blazemeter.com/blog/how-to-use-the-delay-thread-creation-
  
  以本案執行緒數量(Number of Threads(users))設定500，搭配constant timer:5000ms，表示同一個user所發送不同的request會固定差異**5000ms+取樣的時間* 。
  
- * **一致隨機計時器(Uniform Random Timer)**: 即這個thread跟下一個thread隨機延遲的時間，例如本案的**隨機延遲最大值** 20000(ms)，**常數延遲差**: 60000(ms)，隨機延遲時間60~80(60+20)秒之間。 以本案執行緒數量(Number of Threads(users))設定500，搭配Uniform Random Timer:20000~80000ms ，表示同一個user所發送不同的request會固定差異**60~80秒+取樣的時間*。
+ * **一致隨機計時器(Uniform Random Timer)**: 即這個thread跟下一個thread隨機延遲的時間。以本案的**隨機延遲最大值** 20000(ms)，**常數延遲差**: 60000(ms)，隨機延遲時間60 ~ 80(60+20)秒之間。 
+ 
+ 以本案執行緒數量(Number of Threads(users)) 設定500，搭配 Uniform Random Timer: 20000 ~ 80000ms ，表示同一個user所發送不同的request會隨機差異**60 ~ 80秒+取樣的時間** 內。
  
  ![image](https://user-images.githubusercontent.com/14270012/84762744-ca123900-affd-11ea-8e23-31edc165ad85.png)
