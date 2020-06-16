@@ -18,6 +18,7 @@ reference: https://www.blazemeter.com/blog/how-to-use-the-delay-thread-creation-
 * **定時器-啟動延遲時間(Startup Delay/s)**: 即整體測試遞延啟動的時間。
 
 ## HTTP要求(HTTP Request):
+![image](https://user-images.githubusercontent.com/14270012/84729477-628cc700-afc6-11ea-9344-4bf6f0a6e30f.png)
 * **協定(Protocol)**: 即被測試對象所需要用的通訊協定，如:http、https、FTP..。
 * **主機名稱或IP(ServerName or IP)**: 即被測試對象的主機名稱(網址)或IP。
 * **端口號碼(Port Number)**: 即被測試對象的Port，如:80、443。
@@ -25,3 +26,9 @@ reference: https://www.blazemeter.com/blog/how-to-use-the-delay-thread-creation-
 * **路徑(Path)**: 即被測試對象的連結路徑，如:ImageDocWebService/api/XXXXX。
 * **Body Data**: 即相關測試資料，可用json格式，但建議另外加入Http Header Manager，設定Content-Type為application/json。
 ![image](https://user-images.githubusercontent.com/14270012/84738132-ea310080-afdb-11ea-858d-2a2fb029c536.png)
+
+## CSV資料設定(CSV Data Set Config): 
+ * 用途: 主要可以將測試之資料放置csv檔，供Jmeter壓測使用。 
+ * **檔名(FileName)**: 即csv檔案所存放之路徑。
+ * **檔名(Variable Name)**: 建立變數名稱，讓Jmeter使用此變數呼叫csv檔案。本案測試之影像資料，因轉換成base64格式，即可另外存放成csv檔，並讓Jmeter使用變數呼叫，此本案所使用的變數IDCardImage，即在上述的**HTTP要求(HTTP Request)** 的 **Body Data** 中使用
+ ![image](https://user-images.githubusercontent.com/14270012/84742635-55ca9c00-afe3-11ea-98e1-99ba01539f79.png)
