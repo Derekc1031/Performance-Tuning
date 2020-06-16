@@ -18,6 +18,10 @@ reference: https://www.blazemeter.com/blog/how-to-use-the-delay-thread-creation-
 * **定時器-啟動延遲時間(Startup Delay/s)**: 即整體測試遞延啟動的時間。
 
 ## HTTP要求(HTTP Request):
-* **協定(Protocol)**: 即測試所需要用的通訊協定，如http、https、FTP..。
-
-
+* **協定(Protocol)**: 即被測試對象所需要用的通訊協定，如:http、https、FTP..。
+* **主機名稱或IP(ServerName or IP)**: 即被測試對象的主機名稱(網址)或IP。
+* **端口號碼(Port Number)**: 即被測試對象的Port，如:80、443。
+* **方法(Method)**: 即連結被測試對象所使用的http method，如:Get、Post...。
+* **路徑(Path)**: 即被測試對象的連結路徑，如:ImageDocWebService/api/XXXXX。
+* **Body Data**: 即相關測試資料，可用json格式，但建議另外加入Http Header Manager，設定Content-Type為application/json。
+![image](https://user-images.githubusercontent.com/14270012/84738132-ea310080-afdb-11ea-858d-2a2fb029c536.png)
