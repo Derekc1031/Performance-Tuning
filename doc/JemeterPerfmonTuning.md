@@ -30,5 +30,18 @@ reference: https://www.blazemeter.com/blog/how-to-use-the-delay-thread-creation-
 ## CSV資料設定(CSV Data Set Config): 
  * 用途: 主要可以將測試之資料放置csv檔，供Jmeter壓測使用。 
  * **檔名(FileName)**: 即csv檔案所存放之路徑。
- * **檔名(Variable Name)**: 建立變數名稱，讓Jmeter使用此變數呼叫csv檔案。本案測試之影像資料，因轉換成base64格式，即可另外存放成csv檔，並讓Jmeter使用變數呼叫，此本案所使用的變數IDCardImage，即在上述的**HTTP要求(HTTP Request)** 的 **Body Data** 中使用
+ * **檔名(Variable Name)**: 建立變數名稱，讓Jmeter使用此變數呼叫csv檔案。本案測試之影像資料，因轉換成base64格式，即可另外存放成csv檔，並讓Jmeter使用變數呼叫，本案所使用的變數IDCardImage，即在上述的**HTTP要求(HTTP Request)** 的 **Body Data** 中使用
  ![image](https://user-images.githubusercontent.com/14270012/84742635-55ca9c00-afe3-11ea-98e1-99ba01539f79.png)
+
+## 計時器(Timer):
+ * **固定值計時器(Constant Timer)**: 即每個request固定延遲的時間。
+ 舉例:
+ 假設request1的 Start time 是 22:05:01.866, Sample Time of request1 is 172 ms,Constant Timer: 5000 ms
+ 那最後這個request1結束時間: 22:05:01.866 + 172 + 5000 = 22:05:07.038
+ (詳: https://www.guru99.com/timers-jmeter.html, Run your test 章節)
+ 
+ 以本案執行緒數量(Number of Threads(users))設定500，搭配constant timer:5000ms，表示同一個user所發送不同的request會固定差異**5000ms+取樣的時間* 。
+ 
+ * **一致隨機計時器(Uniform Random Timer)**: 即這個thread跟下一個thread隨機延遲的時間，例如本案的**隨機延遲最大值** 20000(ms)，**常數延遲差**: 60000(ms)，隨機延遲時間60~80(60+20)秒之間。 以本案執行緒數量(Number of Threads(users))設定500，搭配Uniform Random Timer:20000~80000ms ，表示同一個user所發送不同的request會固定差異**60~80秒+取樣的時間*。
+ 
+ ![image](https://user-images.githubusercontent.com/14270012/84762744-ca123900-affd-11ea-8e23-31edc165ad85.png)
