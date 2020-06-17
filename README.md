@@ -8,17 +8,20 @@
 # 系統調效:
   
   * [Windows IIS 調效](/doc/WindowsIISTuning.md)
+  * [blazemeter各項系統調效教學](https://www.blazemeter.com/performance-testing)-**Important!!**
   * [Windows Performance Monitor Tutorial](https://www.mssqltips.com/sqlservertutorial/9178/windows-performance-monitor-tutorial/)-**Important!!**
   * [A detailed Windows Resource Monitor guide](https://www.ghacks.net/2017/12/28/a-detailed-windows-resource-monitor-guide/)-**Important!!**
   * [How to Check Server Load on a Windows Server](https://www.liquidweb.com/kb/check-server-load-windows-server/)-**Important!!**
   * [Windows Server 2008 R2 校調工具實戰(上)](http://www.runpc.com.tw/content/content.aspx?id=109255)
   * [Windows Server 2008 R2 校調工具實戰(下)](http://www.runpc.com.tw/content/content.aspx?id=109256)
   * [網站效能調校實戰經驗大募集](https://ithelp.ithome.com.tw/questions/10005261)
+  * [Windows系統的記憶體用量指標](https://blog.opasschang.com/2018/12/04/memory-usage-indexes-on-windows/)
+  
 
 # 負載壓力測試:
  
   * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/Performance&LoadTestingwithVS2015.md)
- 
+  * [使用Jmeter 進行負載壓力測試](/doc/JemeterPerfmonTuning.md)
 
 # DB效能調效:
   
@@ -41,4 +44,6 @@
   * [SQL效能調校經驗一則](https://blog.darkthread.net/blog/sql-memory-bottleneck/)
   * [使用SQL Server Profiler 追蹤網頁SQL指令或Stored Procedure效能](/doc/sqlprofiler.md)
 
+# 網路效能:
+  * [使用Iperf測試網路效能](https://bluelove1968.pixnet.net/blog/post/222277345)
   
