@@ -14,11 +14,11 @@
   
   * [Windows IIS 調效](/doc/WindowsIISTuning.md)-**Important!!**
   * [Performance Tuning Guidelines for Windows Server 2016](https://docs.microsoft.com/zh-tw/windows-server/administration/performance-tuning/)-**Important!!**
-  * [Windows Performance Step-by-Step Guides](https://docs.microsoft.com/zh-tw/windows-hardware/test/wpt/windows-performance-step-by-step-guides)
   * [blazemeter各項系統調效教學](https://www.blazemeter.com/performance-testing)-**Important!!**
   * [Windows Performance Monitor Tutorial](https://www.mssqltips.com/sqlservertutorial/9178/windows-performance-monitor-tutorial/)-**Important!!**
   * [A detailed Windows Resource Monitor guide](https://www.ghacks.net/2017/12/28/a-detailed-windows-resource-monitor-guide/)-**Important!!**
   * [How to Check Server Load on a Windows Server](https://www.liquidweb.com/kb/check-server-load-windows-server/)-**Important!!**
+  * [Windows Performance Step-by-Step Guides](https://docs.microsoft.com/zh-tw/windows-hardware/test/wpt/windows-performance-step-by-step-guides)
   * [Windows Server 2008 R2 校調工具實戰(上)](http://www.runpc.com.tw/content/content.aspx?id=109255)
   * [Windows Server 2008 R2 校調工具實戰(下)](http://www.runpc.com.tw/content/content.aspx?id=109256)
   * [網站效能調校實戰經驗大募集](https://ithelp.ithome.com.tw/questions/10005261)
