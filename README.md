@@ -1,13 +1,20 @@
-# 前端網頁效能:
-
-  * [加速前端網頁效能的14條規則](http://blog.miniasp.com/post/2007/11/24/14-rules-for-faster-front-end-performance-notes.aspx)
-  * Google PageSpeed Insights
-    * [Google PageSpeed Insights分析工具](https://developers.google.com/speed/pagespeed/insights/)
-    * [Google PageSpeed Insights 規則](https://developers.google.com/speed/docs/insights/rules) 
-
+# 程式開發效能:
+  * 前端:
+    * [加速前端網頁效能的14條規則](http://blog.miniasp.com/post/2007/11/24/14-rules-for-faster-front-end-performance-notes.aspx)
+    * Google PageSpeed Insights
+      * [Google PageSpeed Insights分析工具](https://developers.google.com/speed/pagespeed/insights/)
+      * [Google PageSpeed Insights 規則](https://developers.google.com/speed/docs/insights/rules) 
+  * 後端:
+    * [Performance Considerations (ADO.NET Entity Framework)](https://docs.microsoft.com/zh-tw/dotnet/framework/data/adonet/ef/performance-considerations)
+    * [.NET Performance Tips](https://docs.microsoft.com/zh-tw/dotnet/framework/performance/performance-tips)
+    * [.NET Garbage Collection and Performance](https://docs.microsoft.com/zh-tw/dotnet/standard/garbage-collection/performance)
+    * [Visual Studio performance tips and tricks](https://docs.microsoft.com/zh-tw/visualstudio/ide/visual-studio-performance-tips-and-tricks?view=vs-2019)
+  
 # 系統調效:
   
-  * [Windows IIS 調效](/doc/WindowsIISTuning.md)
+  * [Windows IIS 調效](/doc/WindowsIISTuning.md)-**Important!!**
+  * [Performance Tuning Guidelines for Windows Server 2016](https://docs.microsoft.com/zh-tw/windows-server/administration/performance-tuning/)-**Important!!**
+  * [Windows Performance Step-by-Step Guides](https://docs.microsoft.com/zh-tw/windows-hardware/test/wpt/windows-performance-step-by-step-guides)
   * [blazemeter各項系統調效教學](https://www.blazemeter.com/performance-testing)-**Important!!**
   * [Windows Performance Monitor Tutorial](https://www.mssqltips.com/sqlservertutorial/9178/windows-performance-monitor-tutorial/)-**Important!!**
   * [A detailed Windows Resource Monitor guide](https://www.ghacks.net/2017/12/28/a-detailed-windows-resource-monitor-guide/)-**Important!!**
@@ -16,6 +23,7 @@
   * [Windows Server 2008 R2 校調工具實戰(下)](http://www.runpc.com.tw/content/content.aspx?id=109256)
   * [網站效能調校實戰經驗大募集](https://ithelp.ithome.com.tw/questions/10005261)
   * [Windows系統的記憶體用量指標](https://blog.opasschang.com/2018/12/04/memory-usage-indexes-on-windows/)
+  * [Use performance counters to diagnose app performance problems on Remote Desktop Session Hosts](https://docs.microsoft.com/zh-tw/windows-server/remote/remote-desktop-services/rds-rdsh-performance-counters)
   
 
 # 負載壓力測試:
@@ -27,6 +35,7 @@
   
   * [SQL Server Performance Tuning Tips](https://www.mssqltips.com/sql-server-tip-category/9/performance-tuning/)-**Important!!** 
   * [Windows Reliability and Performance Monitor to troubleshoot SQL Server](https://www.mssqltips.com/sqlservertip/1890/windows-reliability-and-performance-monitor-to-troubleshoot-sql-server/)-**Important!!** 
+  * [Performance Monitoring and Tuning Tools](https://docs.microsoft.com/zh-tw/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15)-**Important!!** 
   * [TempDB的基本調教](https://ithelp.ithome.com.tw/articles/10199759) 
   * [Index調教 part1](https://ithelp.ithome.com.tw/articles/10202005)
   * [Index調教 part2](https://ithelp.ithome.com.tw/articles/10202315)
