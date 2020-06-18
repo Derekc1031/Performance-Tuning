@@ -13,6 +13,7 @@
 # 系統調效:
   
   * [Windows IIS 調效](/doc/WindowsIISTuning.md)-**Important!!**
+  * [Load Testing Your IIS Web Server](https://www.jeremymorgan.com/tutorials/iis/how-to-load-test-iis-web-server/)
   * [Performance Tuning Guidelines for Windows Server 2016](https://docs.microsoft.com/zh-tw/windows-server/administration/performance-tuning/)-**Important!!**
   * [blazemeter各項系統調效教學](https://www.blazemeter.com/performance-testing)-**Important!!**
   * [Windows Performance Monitor Tutorial](https://www.mssqltips.com/sqlservertutorial/9178/windows-performance-monitor-tutorial/)-**Important!!**
@@ -24,6 +25,7 @@
   * [網站效能調校實戰經驗大募集](https://ithelp.ithome.com.tw/questions/10005261)
   * [Windows系統的記憶體用量指標](https://blog.opasschang.com/2018/12/04/memory-usage-indexes-on-windows/)
   * [Use performance counters to diagnose app performance problems on Remote Desktop Session Hosts](https://docs.microsoft.com/zh-tw/windows-server/remote/remote-desktop-services/rds-rdsh-performance-counters)
+  * [IE MaxConnectionsPerServer參數效果實測](https://blog.darkthread.net/blog/ie-maxconnectionsperserver/)
   
 
 # 負載壓力測試:
