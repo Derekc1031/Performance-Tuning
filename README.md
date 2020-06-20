@@ -1,4 +1,4 @@
-# 程式開發效能:
+# 程式開發:
   * 前端:
     * [加速前端網頁效能的14條規則](http://blog.miniasp.com/post/2007/11/24/14-rules-for-faster-front-end-performance-notes.aspx)
     * Google PageSpeed Insights
@@ -25,15 +25,9 @@
   * [網站效能調校實戰經驗大募集](https://ithelp.ithome.com.tw/questions/10005261)
   * [Windows系統的記憶體用量指標](https://blog.opasschang.com/2018/12/04/memory-usage-indexes-on-windows/)
   * [Use performance counters to diagnose app performance problems on Remote Desktop Session Hosts](https://docs.microsoft.com/zh-tw/windows-server/remote/remote-desktop-services/rds-rdsh-performance-counters)
-  * [IE MaxConnectionsPerServer參數效果實測](https://blog.darkthread.net/blog/ie-maxconnectionsperserver/)
-  
+  * [IE MaxConnectionsPerServer參數效果實測](https://blog.darkthread.net/blog/ie-maxconnectionsperserver/) 
 
-# 負載壓力測試:
- 
-  * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/Performance&LoadTestingwithVS2015.md)
-  * [使用Jmeter 進行負載壓力測試](/doc/JemeterPerfmonTuning.md)
-
-# DB效能調效:
+# DB調效:
   
   * [SQL Server Performance Tuning Tips](https://www.mssqltips.com/sql-server-tip-category/9/performance-tuning/)-**Important!!** 
   * [Windows Reliability and Performance Monitor to troubleshoot SQL Server](https://www.mssqltips.com/sqlservertip/1890/windows-reliability-and-performance-monitor-to-troubleshoot-sql-server/)-**Important!!** 
@@ -55,6 +49,14 @@
   * [SQL效能調校經驗一則](https://blog.darkthread.net/blog/sql-memory-bottleneck/)
   * [使用SQL Server Profiler 追蹤網頁SQL指令或Stored Procedure效能](/doc/sqlprofiler.md)
 
-# 網路效能:
+# 網路調效:
   * [使用Iperf測試網路效能](https://bluelove1968.pixnet.net/blog/post/222277345)
-  
+ 
+# 效能壓測:
+  * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/Performance&LoadTestingwithVS2015.md)
+  * [使用Jmeter 進行負載壓力測試](/doc/JemeterPerfmonTuning.md) 
+ 
+# 第三方網站效能測試:
+  * [Gtmetrix](https://gtmetrix.com/)
+  * [WebpageTest](https://www.webpagetest.org/)
+  * [GPagespeedInsight](https://developers.google.com/speed/pagespeed/insights/)
