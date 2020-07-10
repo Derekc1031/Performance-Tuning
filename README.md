@@ -56,7 +56,7 @@
 # 效能壓測:
   * [使用Visual Studio 2015 及 Test Controller & Test Agent 進行負載壓力測試](/doc/Performance&LoadTestingwithVS2015.md)
   * [使用Jmeter 進行負載壓力測試](/doc/JmeterPerfmonTuning.md)
-  * [使用Jmeter進同時進行不同測試案例之壓力測試](/doc/JmeterPerfmonTuning.md)
+  * [使用Jmeter進同時進行不同測試案例之壓力測試](/doc/JmeterPerfmonTuning2.md)
  
 # 第三方網站效能測試:
   * [Gtmetrix](https://gtmetrix.com/)
